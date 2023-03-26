@@ -32,6 +32,7 @@ public class HumanReadableTime {
 
         String timeInHHMMSS = String.format("%02d:%02d:%02d", HH, MM, SS);
         System.out.println("\n***Using String.format function =>"+ timeInHHMMSS);
+        
         return new StringBuilder().append(HH).append(":")
                 .append(MM).append(":")
                 .append(SS)
